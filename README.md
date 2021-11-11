@@ -20,5 +20,6 @@ A lot of usefull stuff, like configurating and setting up remote access, can be 
 4. Now you are ready to use Raspbery!
 
 ### Configure SSH
+To configure follow the remote access to your Raspbery via `ssh` follow the instructions in the [RaspberyPi documentation - remote access](https://www.raspberrypi.com/documentation/computers/remote-access.html)
 
 ## My projects
