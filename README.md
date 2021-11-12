@@ -41,3 +41,4 @@ Install Docker on raspberypi: https://phoenixnap.com/kb/docker-on-raspberry-pi
 
 
 ## My projects
+- `pi-hole` - simple DNS server to block adds for devices in entire local subnet.
