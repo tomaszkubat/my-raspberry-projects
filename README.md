@@ -22,4 +22,22 @@ A lot of usefull stuff, like configurating and setting up remote access, can be 
 ### Configure SSH
 To configure follow the remote access to your Raspbery via `ssh` follow the instructions in the [RaspberyPi documentation - remote access](https://www.raspberrypi.com/documentation/computers/remote-access.html)
 
+Generally:
+```bash
+sudo raspi-config
+```
+Navigate to the `Interface Options` and enable `ssh`.
+
+### Change hostname
+The raspi config can be edited to change the `hostname`"
+```bash
+sudo raspi-config
+```
+
+### Install additonal software
+
+Install Docker on raspberypi: https://phoenixnap.com/kb/docker-on-raspberry-pi
+
+
+
 ## My projects
