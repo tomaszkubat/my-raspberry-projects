@@ -1,6 +1,8 @@
 # my-raspbery-projects
 My private projects made on the Raspbery Pi.
 
+![my RaspberyPi setup](/docs/my-raspbery.jpg)
+
 ## Info
 This project contains information about the application of Raspbery Pi 4 for my private purposes.
 The intention is to describe all the required configuration steps to enable simply from-zero-to-go setup.
