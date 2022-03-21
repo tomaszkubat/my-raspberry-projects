@@ -1,10 +1,7 @@
 
 # Setup documentation
 
-___
 This document describes additional (optional) configuration steps.
-
-___
 
 ## Provide raspberry with the static private IP (IPv4)
 
