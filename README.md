@@ -1,7 +1,7 @@
 # my-raspbery-projects
 My private projects made on the Raspbery Pi.
 
-![my RaspberyPi setup](/docs/my-raspbery.jpg)
+![my RaspberyPi](/docs/my-raspbery.jpg)
 
 ## Info
 This project contains information about the application of Raspbery Pi 4 for my private purposes.
@@ -9,10 +9,8 @@ The intention is to describe all the required configuration steps to enable simp
 
 ## Setup
 The paragraph briefly describes the initial process of setting up the Raspbery.
-A lot of usefull stuff, like configurating and setting up remote access, can be found in the [official RaspberyPi documentation](https://www.raspberrypi.com/documentation/).
 
-### Make your Raspbery alive
-
+**Make your Raspbery alive**
 1. **Assembly** the Raspbery Pi:
     1. Insert the micro SD card.
     2. Plug in hardware: keyboard, mouse, external monitor.
@@ -21,26 +19,11 @@ A lot of usefull stuff, like configurating and setting up remote access, can be 
 3. **Post-instalation configuratioin**. After the installation, the system should be booted. Set up some post-installation configurations like language and time zone.
 4. Now you are ready to use Raspbery!
 
-### Configure SSH
-To configure follow the remote access to your Raspbery via `ssh` follow the instructions in the [RaspberyPi documentation - remote access](https://www.raspberrypi.com/documentation/computers/remote-access.html)
+After the installation of the OS you can make some additional configuration changes obviously.
+Some hints could be found [here](https://github.com/tomaszkubat/my-raspbery-projects/edit/main/setup/README.md)
 
-Generally:
-```bash
-sudo raspi-config
-```
-Navigate to the `Interface Options` and enable `ssh`.
-
-### Change hostname
-The raspi config can be edited to change the `hostname`"
-```bash
-sudo raspi-config
-```
-
-### Install additonal software
-
-Install Docker on raspberypi: https://phoenixnap.com/kb/docker-on-raspberry-pi
-
-
+Also a lot of usefull stuff, like configurating and setting up remote access, can be found in the [official RaspberyPi documentation](https://www.raspberrypi.com/documentation/).
 
 ## My projects
+- `home-assistant` - an application of open-source home assistant.
 - `pi-hole` - simple DNS server to block adds for devices in entire local subnet.
