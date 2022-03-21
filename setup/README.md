@@ -33,7 +33,7 @@ sudo reboot
 
 ```
 
-### Connect to raspbery by RDP
+## Connect to raspbery by RDP
 
 ```bash
 sudo apt install xrdp
