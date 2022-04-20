@@ -5,6 +5,9 @@ This document describes additional (optional) configuration steps.
 
 ## Network
 
+### disable WiFi
+echo -e "dtoverlay=disable-wifi\ndtoverlay=disable-bt" >> /boot/config.txt
+
 ### Change hostname
 The raspi config can be edited to change the `hostname`"
 ```bash
