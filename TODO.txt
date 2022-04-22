@@ -1,0 +1,2 @@
+- move to 62 bit architecture
+- use Docker Compose
