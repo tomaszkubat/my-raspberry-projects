@@ -19,17 +19,23 @@ To make your Raspbery alive:
 4. Now you are ready to use Raspbery!
 
 ## Software installation
-
-
 After the installation of the OS you can make some additional configuration changes obviously.
 Some hints could be found [here](https://github.com/tomaszkubat/my-raspbery-projects/edit/main/setup/README.md)
 
 Also a lot of usefull stuff, like configurating and setting up remote access, can be found in the [official RaspberyPi documentation](https://www.raspberrypi.com/documentation/).
 
+For my purposes I have to install `Docker` and `Portainer` to operate with containers.
+Containers provive a clean and repetitive way to manage services installation.
 
+To install docker rimply run `makefile` command:
+```bash
+make setup-docker
+```
 
+## Services
+Currently a few services are in use:
 
-
-## Services setup
-- `home-assistant` - an application of open-source home assistant.
 - `pi-hole` - simple DNS server to block adds for devices in entire local subnet.
+- `home-assistant` - an application of open-source home assistant to manage a broad range of home devices from various providers.
+
+Information about the services installation could be found in the dedicated Readme files in the `services/<service-name>/Readme.md` directories.
