@@ -34,8 +34,8 @@ make setup-docker
 
 ## Services
 Currently a few services are in use:
-
-- `pi-hole` - simple DNS server to block adds for devices in entire local subnet.
+- `cloud-storage` - an open source file syncing and sharing solution based on Seafile.
 - `home-assistant` - an application of open-source home assistant to manage a broad range of home devices from various providers.
+- `pi-hole` - simple DNS server to block adds for devices in entire local subnet.
 
 Information about the services installation could be found in the dedicated Readme files in the `services/<service-name>/Readme.md` directories.
