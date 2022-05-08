@@ -2,9 +2,14 @@
 
 
 ## Prerequisites
-- Docker
+- Docker with Docker-compose
 
+##
+To setup service simple run:
+```bash
+docker-compose up
+```
 
-# Info
+## Info
 
 Be default `Home Assistant` operates on port `8123`.
