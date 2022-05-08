@@ -23,7 +23,6 @@ sudo pihole -a -p
     - set raspbery as primary DNS server.  
     - set static IP for rasbpery insted of using dynamic one. 
 
-
 ## Official documentation
 For reference navige to:
 - [pi-hole docker image documentation](https://hub.docker.com/r/pihole/pihole)
