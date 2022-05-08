@@ -1,3 +1,0 @@
-- move to 62 bit architecture
-- use Docker Compose
-- apply DNS to ha and expose to external
