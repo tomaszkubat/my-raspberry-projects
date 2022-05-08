@@ -7,7 +7,7 @@
 ## Setup
 To setup service simple run:
 ```bash
-docker-compose up
+docker-compose up -d
 ```
 
 ## Info
