@@ -40,4 +40,4 @@ static routers=192.168.1.1
 static domain_name_servers=192.168.1.1
 ```
 
-4. Reboot raspberry.
+3. Reboot raspberry.
