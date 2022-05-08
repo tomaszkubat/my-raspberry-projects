@@ -6,7 +6,7 @@ This document describes additional (optional) configuration steps.
 Some steps, like setting proper hostname and disabling the WiFi can be done during OS image creation by `Raspberry Pi Imager`.
 
 ## Network and connectivity
-### configure SSH
+### Enable SSH
 To configure remote access to your Raspbery via `ssh` follow the instructions in the [RaspberyPi documentation - remote access](https://www.raspberrypi.com/documentation/computers/remote-access.html)
 
 Generally:
@@ -15,7 +15,7 @@ sudo raspi-config
 ```
 Navigate to the `Interface Options` and enable `ssh`. Done!
 
-### disable WiFi
+### Disable WiFi
 ```bash
 echo -e "dtoverlay=disable-wifi\ndtoverlay=disable-bt" >> /boot/config.txt
 ```
