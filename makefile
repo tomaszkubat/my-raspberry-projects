@@ -1,3 +1,2 @@
-
 setup-docker:
-    cd setup/services/ && ./docker.sh && ./portainer.sh
+    cd setup/ && ./docker.sh && ./portainer.sh
