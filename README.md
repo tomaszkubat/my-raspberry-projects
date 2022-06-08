@@ -32,6 +32,8 @@ To install docker rimply run `makefile` command:
 make setup-docker
 ```
 
+Additional steps may be required to enable running docker as non-root user.
+
 ## Services
 Currently a few services are in use:
 - `cloud-storage` - an open source file syncing and sharing solution based on Seafile.
