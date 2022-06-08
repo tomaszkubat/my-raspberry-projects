@@ -4,13 +4,12 @@
 This document briefly describes the simplistic setup of the `pi-hole` on my raspberry.
 
 ## How to setup `pi-hole`
-1. Run the `pi-hole` docker container. To do this simply run the `docker_run.sh` script - this scrit comes from [pi-hole repository](https://github.com/pi-hole/docker-pi-hole/blob/master/docker_run.sh) and can be configured accordingly to your requirements.  
+1. Configure `pi-hole` in the `docker-compose.yaml` file
+2. To setup service (run container) simple run:
 ```bash
-# start pihole container
-chmod +x docker_run.sh
-./docker_run.sh
+docker-compose up -d
 ```
-2. Check if `pi-hole` is running - navigate to web console by providing <raspbery_id>/admin` address. To get/restart admin password use the commands bellow.
+3. Check if `pi-hole` is running - navigate to web console by providing <raspbery_ip>:80/admin` address. To get/restart admin password use the commands bellow.
 ```bash
 # get initial password
 docker logs pihole | grep random
