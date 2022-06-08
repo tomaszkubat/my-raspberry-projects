@@ -13,8 +13,13 @@ docker-compose up -d
 
 ## Devices integration
 - Roomba iRoobot - simply folow up the configuration wizard steps.
-- Mi devices - the easiest way is to import devices from MiHome (if already configured). In my case for:
-  - **Xiaomi Air Purifier Mi Pro H** the model set on the Xiaomi CLoud was `zhimi.airpurifier.vb2` but for Home Assistant integration `zhimi.airpurifier.va1` worked fine.
+- Mi devices - the easiest way is to import devices from MiHome (if already configured). In my case I had to use current mappings to make devices working.
+
+| Device name | Xiaomi Cloud device model | Home Assistant device model |
+|---|---|---|
+| Xiaomi Air Purifier Mi Pro H | zhimi.airpurifier.vb2 | zhimi.airpurifier.va1 |
+| Xiaomi 360 Camera | chuangmi.camera.026c02 | chuangmi.plug.v3 |
+
 
 ## Info
 
